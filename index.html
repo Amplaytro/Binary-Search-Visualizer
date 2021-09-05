@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Binary Search</title>
+	<meta charset = "UTF-8" />
+	<meta name = "viewport"
+		content = "width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+	<br>
+	<p class = "header">Binary Search</p>
+
+	<div id = "array"></div>
+	<br>
+
+	<div id = "subarray"></div>
+	<br>
+
+	<div style = "text-align: center">
+	<label for = "fname">
+		Number to be Searched:
+	</label>
+	<input type = "text" id = "fname"
+			name = "fname">
+	<br><br>
+	<button id = "btn" onclick="initialise()">Reset</button>
+	<button id = "btn2" onclick="binaryStep(true)">Next</button>
+	<button id = "btn3" onclick="BinarySearch()">Solve</button>
+	<br><br>
+
+	<div id = "text"></div>
+	</div>
+    <br><br>
+
+    <table style = "margin-left: 600px; background-color: rgb(255, 173,93); border: 1px solid black; padding: 10px">
+    	<tr>
+    		<td>start:</td>
+    		<td id = "fr">i=0</td>
+    	</tr>
+    	<tr>
+    		<td>end:</td>
+    		<td id = "sr">j=19</td>
+    	</tr>
+    	<tr>
+    		<td>mid:</td>
+    		<td id = "tr">FLOOR([0+19]/2)=9</td>
+    	</tr>
+    </table>
+    <br>
+
+    <div style = "margin-left: 600px">
+    	<li id = "l1">Array of 20 elements with indices</li>
+    	<li id = "l2">Initialize start: i=0 and end: j=19</li>
+    	<li id = "l3">Compare i and j ---> i<=j --> 0<=19 TRUE</li>
+    	<li id = "l4">Finding middle element</li>
+    	<li id = "l5">mid=FLOOR([start+end]/2)=FLOOR([0+19]/2)=9</li>
+    	<li id = "l6"></li> 
+    </div>
+
+	<script src = "script.js"></script>
+</body>
+</html>
