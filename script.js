@@ -123,7 +123,7 @@ function displayArray(id, start, end, mid) {
 		}
 
 		var lab2 = document.createElement("label");
-		lab2.classList.add("mid");
+		lab2.classList.add("starting_mid_ending");
 		if (mid==end) {
 			lab2.innerText = "i=mid=j="+mid;
 		}
