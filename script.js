@@ -195,7 +195,8 @@ function binaryStep(manual) {
 		document.getElementById("l2").innerHTML = num+" is compared with the element at mid ---> "+num+" = "+value;
 		document.getElementById("l3").innerHTML = "Therefore the search for element "+num+" is done";
 		document.getElementById("l4").innerHTML = "Element found at location "+mid;
-		document.getElementById("l6").style = "display: none";
+		document.getElementById("l5").innerHTML = "";
+		document.getElementById("l6").innerHTML = "";
 		return true;
 	}
 	//Current mid is greater than the element enter by the user
