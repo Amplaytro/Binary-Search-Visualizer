@@ -117,7 +117,7 @@ function displayArray(id, start, end, mid) {
 		}
 
 		var lab1 = document.createElement("label");
-		lab1.classList.add("start_mid");
+		lab1.classList.add("starting_mid");
 		if ((start==mid) && (i!=end)) {
 			lab1.innerText = "i=mid="+mid;
 		}
